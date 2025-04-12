@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Психологическая помощь | Ваш персональный психолог</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Хедер с навигацией -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Гармония</span>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">Обо мне</a></li>
+            <li><a href="#services" class="nav-link">Услуги</a></li>
+            <li><a href="#approach" class="nav-link">Подход</a></li>
+            <li><a href="#testimonials" class="nav-link">Отзывы</a></li>
+            <li><a href="#contact" class="nav-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Открыть меню">
+          <span class="hamburger"></span>
+        </button>
+        <a href="#contact" class="btn btn-primary header-cta">Записаться</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Главная секция (герой) -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title animate-fade-in">Путь к внутренней гармонии и осознанности</h1>
+          <p class="hero-subtitle animate-fade-in delay-200">Профессиональная психологическая помощь в решении личных проблем, преодолении кризисов и саморазвитии</p>
+          <div class="hero-cta animate-fade-in delay-300">
+            <a href="#contact" class="btn btn-primary btn-lg">Записаться на консультацию</a>
+            <a href="#approach" class="btn btn-outline btn-lg">Узнать больше</a>
+          </div>
+        </div>
+        <div class="hero-image animate-fade-in delay-400">
+          <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Психологическая помощь">
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1" d="M0,128L60,133.3C120,139,240,149,360,149.3C480,149,600,139,720,149.3C840,160,960,192,1080,186.7C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Секция "Обо мне" -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Обо мне</h2>
+        <p class="section-subtitle">Я помогаю людям раскрыть свой потенциал и найти внутренний баланс</p>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="Психолог Анна Иванова">
+        </div>
+        <div class="about-text">
+          <h3 class="about-name">Анна Иванова</h3>
+          <p class="about-title">Клинический психолог, МГУ</p>
+          <p class="about-description">
+            Более 7 лет я помогаю людям преодолевать жизненные трудности, находить ресурсы для личностного роста и выстраивать гармоничные отношения с собой и окружающими.
+          </p>
+          <p class="about-description">
+            Моя практика основана на интегративном подходе, включающем методики когнитивно-поведенческой терапии, психоанализа и гештальт-терапии. Я верю, что каждый человек уникален, и подбираю индивидуальные стратегии для каждого клиента.
+          </p>
+          <div class="about-credentials">
+            <div class="credential">
+              <div class="credential-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="credential-text">
+                <h4>Образование</h4>
+                <p>Магистр психологии, МГУ им. Ломоносова</p>
+              </div>
+            </div>
+            <div class="credential">
+              <div class="credential-icon">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <div class="credential-text">
+                <h4>Сертификация</h4>
+                <p>Сертифицированный специалист по CBT и EMDR</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "Услуги" -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Мои услуги</h2>
+        <p class="section-subtitle">Профессиональная помощь для решения различных психологических задач</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3 class="service-title">Индивидуальная терапия</h3>
+          <p class="service-description">
+            Персональные консультации для глубокой проработки личных вопросов, травм и поиска внутренних ресурсов.
+          </p>
+          <div class="service-details">
+            <div class="service-detail">
+              <strong>Длительность:</strong> 60 минут
+            </div>
+            <div class="service-detail">
+              <strong>Формат:</strong> Онлайн или очно
+            </div>
+            <div class="service-price">
+              <span>от 3 000 ₽</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-outline btn-block">Записаться</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="service-title">Семейная терапия</h3>
+          <p class="service-description">
+            Работа с парами и семьями для улучшения коммуникации, преодоления конфликтов и укрепления отношений.
+          </p>
+          <div class="service-details">
+            <div class="service-detail">
+              <strong>Длительность:</strong> 90 минут
+            </div>
+            <div class="service-detail">
+              <strong>Формат:</strong> Онлайн или очно
+            </div>
+            <div class="service-price">
+              <span>от 4 500 ₽</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-outline btn-block">Записаться</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3 class="service-title">Когнитивно-поведенческая терапия</h3>
+          <p class="service-description">
+            Эффективные методики для лечения тревожности, депрессии, панических атак и фобий.
+          </p>
+          <div class="service-details">
+            <div class="service-detail">
+              <strong>Длительность:</strong> 60 минут
+            </div>
+            <div class="service-detail">
+              <strong>Формат:</strong> Онлайн или очно
+            </div>
+            <div class="service-price">
+              <span>от 3 500 ₽</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-outline btn-block">Записаться</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3 class="service-title">Психотерапия отношений</h3>
+          <p class="service-description">
+            Помощь в построении здоровых отношений, преодолении кризисов и разрешении конфликтов.
+          </p>
+          <div class="service-details">
+            <div class="service-detail">
+              <strong>Длительность:</strong> 75 минут
+            </div>
+            <div class="service-detail">
+              <strong>Формат:</strong> Онлайн или очно
+            </div>
+            <div class="service-price">
+              <span>от 4 000 ₽</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-outline btn-block">Записаться</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "Мой подход" -->
+  <section class="section" id="approach">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Мой подход</h2>
+        <p class="section-subtitle">Интегративная психотерапия, адаптированная под индивидуальные потребности</p>
+      </div>
+      <div class="approach-content">
+        <div class="approach-item">
+          <div class="approach-number">01</div>
+          <div class="approach-info">
+            <h3 class="approach-title">Безопасное пространство</h3>
+            <p class="approach-description">
+              Создаю доверительную атмосферу, где вы можете свободно выражать свои мысли и чувства без осуждения.
+            </p>
+          </div>
+        </div>
+        <div class="approach-item">
+          <div class="approach-number">02</div>
+          <div class="approach-info">
+            <h3 class="approach-title">Индивидуальный подход</h3>
+            <p class="approach-description">
+              Разрабатываю уникальную стратегию терапии, учитывая ваши потребности, цели и личностные особенности.
+            </p>
+          </div>
+        </div>
+        <div class="approach-item">
+          <div class="approach-number">03</div>
+          <div class="approach-info">
+            <h3 class="approach-title">Научно обоснованные методы</h3>
+            <p class="approach-description">
+              Использую только проверенные терапевтические методики с доказанной эффективностью.
+            </p>
+          </div>
+        </div>
+        <div class="approach-item">
+          <div class="approach-number">04</div>
+          <div class="approach-info">
+            <h3 class="approach-title">Постоянное развитие</h3>
+            <p class="approach-description">
+              Регулярно повышаю квалификацию и осваиваю новые подходы для достижения наилучших результатов.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "В каких случаях обращаются" -->
+  <section class="section section-alt" id="cases">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Когда обращаются к психологу</h2>
+        <p class="section-subtitle">Я помогаю клиентам в различных жизненных ситуациях</p>
+      </div>
+      <div class="cases-grid">
+        <div class="case-card">
+          <div class="case-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3 class="case-title">Стресс и тревога</h3>
+          <p class="case-description">
+            Помогаю справиться с хроническим стрессом, тревожностью, паническими атаками и фобиями.
+          </p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">
+            <i class="fas fa-cloud-rain"></i>
+          </div>
+          <h3 class="case-title">Депрессия</h3>
+          <p class="case-description">
+            Работаю с депрессивными состояниями, апатией, потерей смысла и мотивации.
+          </p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">
+            <i class="fas fa-heart-broken"></i>
+          </div>
+          <h3 class="case-title">Отношения</h3>
+          <p class="case-description">
+            Помогаю разрешать конфликты, преодолевать кризисы и строить здоровые отношения.
+          </p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">
+            <i class="fas fa-virus"></i>
+          </div>
+          <h3 class="case-title">Травмы и потери</h3>
+          <p class="case-description">
+            Работаю с психологическими травмами, потерями и процессом горевания.
+          </p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">
+            <i class="fas fa-balance-scale"></i>
+          </div>
+          <h3 class="case-title">Самооценка</h3>
+          <p class="case-description">
+            Помогаю в вопросах неуверенности в себе, заниженной самооценки и самокритики.
+          </p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3 class="case-title">Самопознание</h3>
+          <p class="case-description">
+            Сопровождаю в процессе самоисследования, поиска себя и своего пути.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "Отзывы" -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Отзывы моих клиентов</h2>
+        <p class="section-subtitle">Истории тех, кому я помогла изменить жизнь к лучшему</p>
+      </div>
+      <div class="testimonials-slider">
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Благодаря работе с Анной я смогла преодолеть многолетнюю тревогу и панические атаки. Её методики оказались невероятно эффективными. Сейчас я чувствую себя намного уверенней и наконец-то живу полной жизнью."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-image">
+              <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Екатерина, 34 года">
+            </div>
+            <div class="author-info">
+              <h4 class="author-name">Екатерина, 34 года</h4>
+              <p class="author-note">Работает с психологом 6 месяцев</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Мы с женой были на грани развода, когда решили обратиться к Анне. Её профессионализм и чуткость помогли нам наладить коммуникацию и вернуть тепло в отношения. Мы научились слышать друг друга и разрешать конфликты конструктивно."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-image">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Александр, 41 год">
+            </div>
+            <div class="author-info">
+              <h4 class="author-name">Александр, 41 год</h4>
+              <p class="author-note">Семейная терапия, 12 сессий</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "После потери близкого человека я чувствовала, что не могу двигаться дальше. Анна помогла мне пройти через процесс горевания, научила принимать свои чувства и постепенно возвращаться к жизни. Я бесконечно благодарна за её поддержку."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-image">
+              <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Мария, 29 лет">
+            </div>
+            <div class="author-info">
+              <h4 class="author-name">Мария, 29 лет</h4>
+              <p class="author-note">Работа с травмой, 8 месяцев</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "FAQ" -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+        <p class="section-subtitle">Ответы на распространенные вопросы о психотерапии</p>
+      </div>
+      <div class="faq-content">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Сколько сессий потребуется?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Количество необходимых сессий индивидуально и зависит от ваших целей и сложности проблемы. Для решения конкретных вопросов может потребоваться от 8 до 12 сессий. Длительная терапия может продолжаться от нескольких месяцев до года и более. На первой консультации мы обсудим примерный план работы.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Как проходят онлайн-консультации?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Онлайн-консультации проводятся через Zoom или Skype. Для комфортной работы вам понадобится устойчивое интернет-соединение, устройство с камерой и микрофоном, а также уединенное место, где вас никто не потревожит во время сессии. По эффективности онлайн-формат не уступает очным встречам.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Гарантируется ли конфиденциальность?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Абсолютно. Я соблюдаю принцип конфиденциальности, и вся информация, которой вы делитесь на сессиях, остается строго между нами. Исключения составляют только случаи, предусмотренные законом, когда существует угроза жизни и здоровью.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Какие методы психотерапии вы используете?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Я практикую интегративный подход, адаптируя методы под потребности каждого клиента. В своей работе я использую когнитивно-поведенческую терапию (КПТ), психодинамический подход, гештальт-терапию, элементы EMDR и другие научно обоснованные методики.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>Как происходит оплата услуг?</h3>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Оплата осуществляется перед сессией или в день её проведения. Вы можете оплатить консультацию банковским переводом, картой или через электронные платежные системы. Также доступны пакетные предложения с небольшой скидкой при оплате нескольких сессий вперед.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "Контакты" -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Запись на консультацию</h2>
+        <p class="section-subtitle">Сделайте первый шаг к изменениям в вашей жизни уже сегодня</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Адрес</h3>
+              <p>г. Москва, ул. Арбат, 12, офис 405</p>
+              <p class="text-muted">Также доступны онлайн-консультации</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Телефон</h3>
+              <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h3>Email</h3>
+              <p><a href="mailto:info@psycholog.ru">info@psycholog.ru</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-text">
+              <h3>График работы</h3>
+              <p>Пн-Пт: 10:00 - 20:00</p>
+              <p>Сб: 10:00 - 18:00</p>
+            </div>
+          </div>
+          <div class="contact-social">
+            <h3>Социальные сети</h3>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Telegram">
+                <i class="fab fa-telegram-plane"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-container">
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="service">Услуга</label>
+              <select id="service" name="service">
+                <option value="individual">Индивидуальная терапия</option>
+                <option value="couple">Семейная терапия</option>
+                <option value="cbt">Когнитивно-поведенческая терапия</option>
+                <option value="relationship">Психотерапия отношений</option>
+                <option value="other">Другое</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Сообщение</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-container">
+                <input type="checkbox" required>
+                <span class="checkmark"></span>
+                Я согласен(на) с <a href="#">политикой конфиденциальности</a>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "Блог" -->
+  <section class="section section-alt" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Полезные статьи</h2>
+        <p class="section-subtitle">Делюсь знаниями и практическими советами по психологии</p>
+      </div>
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Как преодолеть тревогу">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">12 апреля 2023</div>
+            <h3 class="blog-title">Как преодолеть тревогу: 5 проверенных методов</h3>
+            <p class="blog-excerpt">
+              Тревога может серьезно ограничивать вашу жизнь, но существуют эффективные стратегии, которые помогут вам с ней справиться.
+            </p>
+            <a href="#" class="blog-link">Читать статью</a>
+          </div>
+        </div>
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1516746955089-31bfcfe23aeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Эмоциональный интеллект">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">3 марта 2023</div>
+            <h3 class="blog-title">Развитие эмоционального интеллекта: ключ к успешным отношениям</h3>
+            <p class="blog-excerpt">
+              Эмоциональный интеллект играет важную роль в построении здоровых отношений. Узнайте, как его развивать.
+            </p>
+            <a href="#" class="blog-link">Читать статью</a>
+          </div>
+        </div>
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1526676037777-05a232554d77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Границы в отношениях">
+          </div>
+          <div class="blog-content">
+            <div class="blog-date">15 февраля 2023</div>
+            <h3 class="blog-title">Здоровые границы в отношениях: почему они важны</h3>
+            <p class="blog-excerpt">
+              Умение устанавливать границы — необходимый навык для создания здоровых и удовлетворяющих отношений.
+            </p>
+            <a href="#" class="blog-link">Читать статью</a>
+          </div>
+        </div>
+      </div>
+      <div class="blog-cta">
+        <a href="#" class="btn btn-outline">Все статьи</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Гармония</span>
+          <p class="footer-tagline">Профессиональная психологическая помощь</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Навигация</h3>
+            <ul>
+              <li><a href="#about">Обо мне</a></li>
+              <li><a href="#services">Услуги</a></li>
+              <li><a href="#approach">Подход</a></li>
+              <li><a href="#testimonials">Отзывы</a></li>
+              <li><a href="#blog">Блог</a></li>
+              <li><a href="#contact">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Услуги</h3>
+            <ul>
+              <li><a href="#services">Индивидуальная терапия</a></li>
+              <li><a href="#services">Семейная терапия</a></li>
+              <li><a href="#services">Когнитивно-поведенческая терапия</a></li>
+              <li><a href="#services">Психотерапия отношений</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Контакты</h3>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Арбат, 12</li>
+              <li><i class="fas fa-phone-alt"></i> <a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:info@psycholog.ru">info@psycholog.ru</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; 2023 "Гармония". Все права защищены.
+        </div>
+        <div class="footer-legal">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Условия использования</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Кнопка "Наверх" -->
+  <a href="#top" class="back-to-top" aria-label="Наверх">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <!-- Скрипты -->
+  <script src="scripts.js"></script>
+</body>
+</html>
